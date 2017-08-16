@@ -5,6 +5,14 @@
     <title>Chat Room</title>
     <link href="public/css/mdui.min.css" rel="stylesheet" type="text/css">
 </head>
+<?php
+
+if(!$_POST['username']){
+    exit("非法操作");
+    return;
+}
+
+?>
 <body class=" mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink">
 <header class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme">
