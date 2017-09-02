@@ -37,9 +37,9 @@
 <div class="doc-container doc-no-cover mdui-col-md-4" style="margin-top:30px;" id="video">
     <video id="my-video" class="video-js mdui-shadow-10 " controls preload="auto" width="750" height="350"
            poster="http://wx2.sinaimg.cn/mw1024/9d52c073gy1fj233hj5ymj20k80pawqt.jpg" data-setup="{}">
-        <source src="rtmp://182.61.46.229/live/livestream" type="rtmp/mp4">
+        <source src="rtmp://your ip" type="rtmp/mp4">
         <!-- 如果上面的rtmp流无法播放，就播放hls流 -->
-        <source src="http://182.61.46.229:8181/live/livestream.m3u8" type='application/x-mpegURL'>
+        <source src="http://your ip" type='application/x-mpegURL'>
         <p class="vjs-no-js">播放视频需要启用 JavaScript，推荐使用支持HTML5的浏览器访问。
             To view this video please enable JavaScript, and consider upgrading to a web browser that
             <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
