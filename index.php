@@ -14,7 +14,7 @@
 <div class="mdui-row">
     <div class="mdui-col-xs-4"></div>
     <div class="mdui-col-xs-4" style="margin-top: 100px">
-        <form action="room.php" method="post" id="form1">
+        <form action="new_room.php" method="post" id="form1">
             <div class="mdui-textfield mdui-textfield-floating-label">
                 <label class="mdui-textfield-label">为自己起个牛逼的名字</label>
                 <input class="mdui-textfield-input" type="text" id="username" name="username">
