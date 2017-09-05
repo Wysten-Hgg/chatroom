@@ -81,7 +81,7 @@
     var  $$ = mdui.JQ;
     if(window.WebSocket){
     <?php if($_POST['username']){$username=$_POST['username'];}else{exit('非法访问');return;}?>
-        var webSocket = new WebSocket("ws://182.61.46.229:9503?name=<?php echo $username; ?>");
+        var webSocket = new WebSocket("ws://you ip?name=<?php echo $username; ?>");
         webSocket.onopen = function (event) {
 
         };
